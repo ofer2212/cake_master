@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object Page</title>
+
+
+    <!--scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="assets/jquery.star-rating-svg.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/page-template.css">
+    <link rel="stylesheet" href="css/object-page.css">
+
+</head>
+<body>
+<header>
+    <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <a href="#" id="logo"><h1>C&nbsp&nbsp&nbspke Master</h1></a>
+    <nav>
+        <ul >
+            <li class="selected"><a href="">Home</a></li>
+            <li><a href="">Just For You</a></li>
+            <li><a href="">My Cakes</a></li>
+            <li><a href="">Cake Dashboard</a></li>
+        </ul>
+        <div id="search">
+            <input type="text" >
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <div class="min-action-btns">
+        <div id="btn1"><b>Edit Cake</b></div>
+        <div id="btn2"><b>Baking Page</b></div>
+        <div id="btn3" class="min-action-nav-btn"><i class="fas fa-plus"></i></div>
+    </div>
+</header>
+
+<div id="wrapper">
+    <main>
+
+        <section id="actions">
+            <a href="#" class="action-btn"><p>Edit Cake</p></a>
+            <a href="#" class="action-btn"><p>Baking page</p></a>
+        </section>
+
+
+        <section id="recipe-info">
+            <section class="side">
+                <section>
+                    <div><p><b>90</b></p></div>
+                    <h4>Minutes</h4>
+                </section>
+                <section>
+                    <div><p><b>Medium</b></p></div>
+                    <h4>Difficulty</h4>
+                </section>
+                <section>
+                    <div><p><b>8-10</b></p></div>
+                    <h4>Servings</h4>
+                </section>
+            </section>
+
+            <section class="content">
+                <section class="title">
+                    <img id="title-image" src="images/cake3.png" alt="main cake">
+
+                    <h1><b>Chocolate cake with berries</b></h1>
+
+
+
+                    <div class="user-name">
+                        <i class="fas fa-user"></i>
+                        <h3>The Midnight baker</h3>
+                    </div>
+
+                </section>
+
+                <section class="details">
+                <p id="description">Chocolate cake with berries filled with pieces of Belgian chocolate
+                    and patisserie cream wrapped in soft chocolate ganache.</p>
+
+                <a href="#recipe">Jump To Recipe <i class="fas fa-arrow-down"></i></a>
+                <img id="main-image" src="images/cake3.png" alt="main cake">
+                </section>
+
+                <section class="recipe" id="recipe">
+                    <h2>Chocolate cake with berries Recipe</h2>
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <p>For chocolate cake:</p>
+                        <li>200 gr of butter</li>
+                        <li>1 pack of cocoa (1 kg)</li>
+                        <li>500 gr of sugar</li>
+                        <p>For ganache:</p>
+                        <li>500 grams of sweet cream</li>
+                        <li>2 vanilla sticks</li>
+                        <p>For Strawberrie garnish:</p>
+                        <li>2 kg of strawberries</li>
+                        <li>40 gr of sugar</li>
+                    </ul>
+                    <h3>Recipe</h3>
+                    <ul>
+                        <p>For chocolate cake:</p>
+                        <li>Preheat your fan oven to 160°C  or 175°C if you're not using a fan oven.</li>
+                        <li>In a medium bowl sift together flour, baking powder and salt.</li>
+                        <li>In a measuring jug combine sour cream, whole milk and vanilla extract.</li>
+                        <p>For ganache:</p>
+                        <li>Cook frozen raspberries with sugar over a medium-high heat until it.</li>
+                        <li>Strain the jam through a sieve to get rid of raspberry seeds.</li>
+                        <p>For Strawberrie garnish:</p>
+                        <li>In a small saucepan.</li>
+                        <li>Once it's done, strain it through a sieve into a plate.</li>
+                        <li>Using a stand mixer fitted with the paddle attachment, beat the butter.</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+
+        <section class="related">
+            <div class="title">
+                <h3>Related</h3>
+                <span class="line"></span>
+            </div>
+            <section class="horizontal-gallery">
+                <div id="related1"><img src="images/related1.jpg" alt="Fruit cake"><div class="stars"></div></div>
+                <div id="related2"><img src="images/related2.jpg" alt="Rollada"><div class="stars"></div></div>
+                <div id="related3"><img src="images/related3.jpg" alt="Carot cake"><div class="stars"></div></div>
+            </section>
+        </section>
+
+
+    </main>
+</div>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

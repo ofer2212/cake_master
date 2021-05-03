@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personalize</title>
+
+
+    <!--scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="assets/jquery.star-rating-svg.min.js"></script>
+
+
+    <!--    icons-->
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/page-template.css">
+    <link rel="stylesheet" href="css/personalization.css">
+
+    js/jquery.progressbar.js
+    <link rel="stylesheet" href="css/jquery.progressbar.css">
+    <script src="js/jquery.progressbar.js"></script>
+
+
+</head>
+<body>
+<header>
+    <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <a href="#" id="logo"><h1>C&nbsp&nbsp&nbspke Master</h1></a>
+    <nav>
+        <ul>
+            <li ><a href="">Home</a></li>
+            <li><a href="">Just For You</a></li>
+            <li><a href="">My Cakes</a></li>
+            <li><a href="">Cake Dashboard</a></li>
+        </ul>
+        <div id="search">
+            <input type="text">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+</header>
+<div id="wrapper">
+    <main>
+
+        <div class="form-header">
+            <h1>Personalize Your Experience</h1>
+            <div id="steps-container">
+                <div id="steps"></div>
+            </div>
+        </div>
+
+
+
+        <form action="">
+            <section id="questions1" class="questions ">
+                <article id="q1">
+                    <h3>Dessert purpose:</h3>
+                    <label for="q1r1">
+                        <input type="radio" id="q1r1" name="dessertPurpose" value="Birthday">Birthday</label>
+                    <label for="q1r2">
+                        <input type="radio" id="q1r2" name="dessertPurpose" value="Wedding">Wedding</label>
+                    <label for="q1r3">
+                        <input type="radio" id="q1r3" name="dessertPurpose" value="Family Dinner">Family Dinner</label>
+                    <label for="q1r3">
+                        <input type="radio" id="q1r4" name="dessertPurpose" value="Just for Fun">Just for Fun</label>
+                </article>
+                <article id="q2">
+                    <h3>Difficulty:</h3>
+                    <label for="q2r1">
+                        <input type="radio" id="q2r1" name="difficulty" value="Easy">Easy</label>
+                    <label for="q2r2">
+                        <input type="radio" id="q2r2" name="difficulty" value="Medium">Medium</label>
+                    <label for="q2r3">
+                        <input type="radio" id="q2r3" name="difficulty" value="Hard">Hard</label>
+                </article>
+                <article id="q3">
+                    <h3>Time:</h3>
+                    <label for="q3r1">
+                        <input type="radio" id="q3r1" name="time" value="1hour">1 Hour Max</label>
+                    <label for="q3r2">
+                        <input type="radio" id="q3r2" name="time" value="5hour">5 Hour Max</label>
+                    <label for="q3r3">
+                        <input type="radio" id="q3r3" name="time" value="above5">Above 5 hours</label>
+                </article>
+            </section>
+            <section id="questions2" class="questions hide_section">
+                <article id="q4">
+                    <h3>Restrictions:</h3>
+                    <label for="q4c1">
+                        <input type="checkbox" id="q4c1" name="restrictions" value="Vegan">Vegan</label>
+                    <label for="q4c2">
+                        <input type="checkbox" id="q4c2" name="restrictions" value="Diabetes">Diabetes</label>
+                    <label for="q4c3">
+                        <input type="checkbox" id="q4c3" name="restrictions" value="Kosher">Kosher</label>
+
+                    <label for="q4c4">
+                        <input type="checkbox" id="q4c4" name="restrictions" value="LowCal">Low Calories</label>
+                    <label for="q4c5">
+                        <input type="checkbox" id="q4c5" name="restrictions" value="Pregnant">Pregnant</label>
+                    <label for="q4c6">
+                        <input type="checkbox" id="q4c6" name="restrictions" value="EggFree">Egg-Free</label>
+
+                    <label for="q4c7">
+                        <input type="checkbox" id="q4c7" name="restrictions" value="GlutenFree">Gluten-Free</label>
+                    <label for="q4c8">
+                        <input type="checkbox" id="q4c8" name="restrictions" value="NutFree">Nut-Free</label>
+                    <label for="q4c9">
+                        <input type="checkbox" id="q4c9" name="restrictions" value="LactoseFree">Lactose-Free</label>
+                </article>
+                <article id="q5">
+                    <label for="otherRestriction">Other:</label>
+                    <input type="text" name="otherRestriction" id="otherRestriction">
+                </article>
+            </section>
+            <section id="questions3" class="questions hide_section">
+                <article id="q6">
+                    <h3>Choose Your Favorite Desserts</h3>
+                    <div class="image-picker-container">
+
+                        <div class="picker-item">
+                            <h4>Pie</h4>
+                            <div class="img-container">
+                                <img src="images/pie.png" alt="pie">
+                            </div>
+                        </div>
+
+                        <div class="picker-item">
+                            <h4>Custards</h4>
+                            <img src="images/custards.jpg" alt="custards">
+                        </div>
+
+                        <div class="picker-item">
+                            <h4>Cupcakes</h4>
+                            <img src="images/cupcakes.jpg" alt="cupcakes">
+                        </div>
+
+                        <div class="picker-item">
+                            <h4>Frozen Desserts</h4>
+                            <img src="images/frozen-desserts.jpg" alt="frozen">
+                        </div>
+
+                        <div class="picker-item">
+                            <h4>Chocolate Cakes</h4>
+                            <img src="images/chocolate-cakes.jpg" alt="chocolate">
+                        </div>
+
+                        <div class="picker-item">
+                            <h4>Pastries</h4>
+                            <img src="images/pastries.jpg" alt="pastries">
+                        </div>
+
+                    </div>
+                </article>
+
+            </section>
+
+        </form>
+        <section class="navigation">
+            <button id="back-btn"><i class="fas fa-arrow-left"></i>Back</button>
+            <button id="next-btn">Next<i class="fas fa-arrow-right"></i></button>
+        </section>
+
+
+    </main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+
+/*action*/
+
+#actions .action-btn:nth-child(1){
+    background-image: url("../images/cake-drawer.jpg");
+
+
+}
+#actions .action-btn:nth-child(2){
+    background-image: url("../images/cake-factory.jpg");
+
+}
+
+
+
+/*objects view*/
+
+#object-gallery{
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.obj-container{
+    height: 265px;
+    width: 420px ;
+    margin-bottom: 60px;
+}
+
+.obj-card{
+    margin: 1px;
+}
+.front,.back{
+    padding: 1px;
+    height: 250px;
+
+}
+.front img,.back img{
+    object-fit: cover;
+    width: 420px ;
+    height: 250px;
+}
+
+
+.obj-info{
+    margin-left: 3px;
+
+}
+
+.obj-info div{
+    display: flex;
+    justify-content: space-between;
+}
+.obj-info div div{
+    margin-bottom: 5px;
+}
+.obj-info i{
+    margin-right: 5px;
+}
+
+
+.obj-info span{
+    background-image: url("../images/photo-switch-logo.png");
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+
+}
+
+
+@media screen and (max-width: 950px) {
+    #wrapper{
+        width: 600px;
+    }
+
+    .obj-container{
+        width: 600px ;
+        margin-bottom: 90px;
+    }
+
+    .front img,.back img{
+        width: 600px ;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    #wrapper{
+        width: 450px;
+    }
+
+    .obj-container{
+        width: 450px ;
+        margin-bottom: 90px;
+    }
+
+    .front img,.back img{
+        width: 450px ;
+    }
+}
+
+
+
+
+@media screen and (max-width: 520px) {
+    #wrapper{
+        width: 350px;
+    }
+
+    .obj-container{
+        width: 350px ;
+        margin-bottom: 90px;
+    }
+
+    .front img,.back img{
+        width: 350px ;
+    }
+}

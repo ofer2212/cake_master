@@ -1,0 +1,146 @@
+main{
+    display: flex;
+
+}
+
+.object-details{
+    margin-top: 25px;
+width: 50%;
+
+}
+.object-details img{
+   width: 400px;
+    height:550px;
+    object-fit: cover;
+}
+
+.link-list{
+    margin-left: 30px;
+margin-top: 50px;
+
+
+}
+.link-list a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid #f1c7c7;
+    box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.5);
+    background-color: #FDEFEF;
+    padding: 20px;
+}
+
+.link-list a section{
+    text-align: center;
+    justify-self: center;
+    margin-right: 5px;
+}
+
+
+.link-list a:hover{
+
+    box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.2);
+
+}
+
+
+.link-list a h2{
+    color: black;
+    /*width: 100%;*/
+    /*text-align: center;*/
+}
+.link-list a p{
+
+    color: black;
+
+}
+.link-list a i{
+    color: #fd8d8d;
+}
+
+
+@media screen and (max-width: 930px) {
+    #wrapper{
+        width: 700px;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+}
+    .object-details h1{
+        margin-top: 7px;
+        font-size: 30px;
+       text-align: center;
+
+    }
+    .object-details{
+
+        width: 100%;
+
+    }
+    .object-details img{
+        width: 100%;
+        height:550px;
+        /*object-fit: cover;*/
+    }
+
+
+    .link-list{
+        margin-left: 0;
+        margin-top: 50px;
+        width: 100%;
+
+    }
+    .link-list a{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        padding: 0;
+    }
+
+    .link-list a section{
+        text-align: center;
+        justify-self: center;
+        margin-right: 0;
+    }
+    .link-list a i{
+        position: absolute;
+        left: 15%;
+    }
+
+}
+@media screen and (max-width: 930px) {
+    #wrapper{
+        width: 700px;
+    }
+
+
+
+    .link-list{
+        margin: 50px auto;
+        width: 80%;
+
+    }
+
+
+}
+@media screen and (max-width: 700px) {
+    #wrapper{
+        width: 500px;
+    }
+
+
+
+    .link-list{
+        margin: 50px auto;
+        width: 80%;
+
+    }
+
+
+}
